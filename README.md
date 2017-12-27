@@ -11,7 +11,7 @@ Just clone this project and run index.html file.
 You can contribute by adding more pages and functionality in it. Thanks
 
 ## DEMO
- Click for demo : [Coffee-Restaurant](https://rakeshec005.github.io/Coffee-Restaurant/)
+ Click for demo : [Coffee-Restaurant](https://rakeshec005.github.io/coffee_restaurant/)
 ---
 
 Thanks for visiting 😊
