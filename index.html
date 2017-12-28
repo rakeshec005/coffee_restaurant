@@ -175,6 +175,35 @@
     <!-- Scripts -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function(){
+
+            // Smooth Scrolling
+            $("a").on("click", function(event){
+                
+                //Make sure this hash has value
+                if(this.hash !== ""){
+                    
+                    //Prevent default behaviour of anchor tag
+                    event.preventDefault();
+
+                    //Store hash
+                    var hash = this.hash;
+
+                    //Using jQuery animate method to add smooth scrolling to page
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1000, function(){
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+
+                }
+            });
+        });
+    
+    </script>
 </body>
 
 </html>
