@@ -1,5 +1,5 @@
 # Coffee-Restaurant
-Learning bootstrap 4 beta 2.0 - 2nd Project
+
 
 ### Set Up
 There is no need to set up. I already download all essential .js and .css file locally and store in CSS and JS folder.
